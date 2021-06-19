@@ -16,7 +16,6 @@ Pod::Spec.new do |spec|
 
     spec.dependency 'AFNetworking', '~> 4.0.1'
     spec.dependency 'Alamofire', '~> 5.4.3'
-    spec.dependency 'StarIO', '~> 2.8.2'
 
     spec.pod_target_xcconfig = {
         'KOTLIN_TARGET[sdk=iphonesimulator*]' => 'ios_x64',
