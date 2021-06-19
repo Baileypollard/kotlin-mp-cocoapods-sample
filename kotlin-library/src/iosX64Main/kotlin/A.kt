@@ -1,19 +1,8 @@
-import cocoapods.pod_dependency.*
-import cocoapods.SDWebImage.*
 import cocoapods.AFNetworking.*
-import cocoapods.subspec_dependency.*
-import cocoapods.cocoapodSourcesZip.cocoapodSourcesZip
-import cocoapods.example.foo as exampleFoo
-import cocoapods.CocoaLumberjack.*
+//import cocoapods.StarIO.*
 
-fun bar() {
+
+// Sample file that should have access to the iOS imports for the StarIO Sdk
+fun sampleFunction() {
     println(AFNetworkingReachabilityNotificationStatusItem)
-    println(cocoapodSourcesZip())
-    println(foo())
-}
-
-fun bazz() {
-    println(SDGraphicsImageRendererFormatRangeAutomatic)
-    println(exampleFoo())
-    println(baz())
 }
