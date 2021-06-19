@@ -2,7 +2,7 @@
 
 The purpose of this repo is to provide a barebones project to replicate the issues importing the StarIO/StarIO_Extension pods. It appears that these projects have issues importing as they constantly return "Module not found" error.
 
-## Instructions
+## Instructions [Official Documentation](https://kotlinlang.org/docs/native-cocoapods.html#add-a-dependency-on-a-pod-library-from-the-cocoapods-repository)
 
 1. Start off by cloning the repository, and opening the project in your IDE of choice. I use IntelliJ  in which you can import the project through its `build.gradle.kts` file. Wait for the gradle build to finish before moving on to step 2.
 
