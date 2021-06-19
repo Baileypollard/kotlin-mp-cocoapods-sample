@@ -25,8 +25,8 @@ kotlin {
         pod("AFNetworking", "~> 4.0.1")
         pod("Alamofire", "~> 5.4.3")
 
-//      uncomment this next line to see StarIO/StarIO_Extension is not importing with "module 'StarIO' not found"
-//      pod("StarIO", "~> 2.8.2")
-//      pod("StarIO_Extension", "~> 1.15.0")
+      pod("StarIO", "~> 2.8.2")
+//    uncomment this next line to see StarIO/StarIO_Extension is not importing with "module 'StarIO' not found"
+//    pod("StarIO_Extension", "~> 1.15.0")
     }
 }
